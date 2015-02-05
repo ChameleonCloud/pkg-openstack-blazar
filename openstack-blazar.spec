@@ -185,5 +185,5 @@ fi
 
 
 %changelog
-* Fri Jan 23 2015 Pierre Riteau <priteau@uchicago.edu> 2014.2.1-1.gite84096852f17ec14feb9b600ba5a07174fdab7ec
+* Thu Jan 22 2015 Pierre Riteau <priteau@uchicago.edu> 2014.2.1-1.gite84096852f17ec14feb9b600ba5a07174fdab7ec
 - Initial packaging

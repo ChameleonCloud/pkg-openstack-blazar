@@ -1,0 +1,7 @@
+/var/log/blazar/*.log {
+    weekly
+    rotate 4
+    missingok
+    compress
+    minsize 100k
+}

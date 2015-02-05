@@ -1,0 +1,13 @@
+[Unit]
+Description=OpenStack Blazar Manager Server
+After=syslog.target network.target
+
+[Service]
+Type=notify
+Restart=always
+User=climate
+ExecStart=/usr/bin/blazar-manager
+
+[Install]
+WantedBy=multi-user.target
+

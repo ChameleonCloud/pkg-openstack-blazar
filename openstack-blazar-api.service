@@ -1,0 +1,13 @@
+[Unit]
+Description=OpenStack Blazar API Server
+After=syslog.target network.target
+
+[Service]
+Type=simple
+Restart=always
+User=climate
+ExecStart=/usr/bin/blazar-api
+
+[Install]
+WantedBy=multi-user.target
+
